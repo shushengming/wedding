@@ -1,0 +1,32 @@
+@CHARSET "UTF-8"; * { font-family:  '楷体','楷体_GB2312','KaiTi', "STKaiti"; }
+img{ width: 100%; }
+li{ list-style-type: none; }
+* { margin:0px; padding:0px; border:0px;}
+body { margin:0px; padding:0px; border:0px;}
+dl { margin:0px; padding:0px; border:0px;}
+dt { margin:0px; padding:0px; border:0px;}
+dd { margin:0px; padding:0px; border:0px;}
+ul { margin:0px; padding:0px; border:0px;}
+ol { margin:0px; padding:0px; border:0px;}
+pre { margin:0px; padding:0px; border:0px;}
+form { margin:0px; padding:0px; border:0px;}
+fieldset { margin:0px; padding:0px; border:0px;}
+input { margin:0px; padding:0px; border:0px;}
+P { margin:0px; padding:0px; border:0px;}
+blockquote { margin:0px; padding:0px; border:0px;}
+body { background-color:#cec2ba;}
+H1 { margin:0px; padding:0px; border:0px;}
+H2 { margin:0px; padding:0px; border:0px;}
+H3 { margin:0px; padding:0px; border:0px;}
+H4 { margin:0px; padding:0px; border:0px;}
+H4 { margin:0px; padding:0px; border:0px;}
+H5 { margin:0px; padding:0px; border:0px;}
+A:link { color:#333; text-decoration: none }
+A:visited { color:#333; text-decoration: none }
+A:hover { color:#000; text-decoration: none }
+A:active { color:#333; text-decoration: none }
+select { font-size: 12px }
+table { border-collapse: collapse }
+fieldset { margin:0px; padding:0px; border:0px;}
+img { margin:0px; padding:0px; border:0px;}
+#cnzz_stat_icon_1000053934{ display:none;}

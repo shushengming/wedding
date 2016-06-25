@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新郎♥新娘的结婚请柬</title>
+<link href="/favicon.ico" rel="icon" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link href="../css/base.css" rel="stylesheet">
+<link href="../css/index.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/photoswipe.css" />
+<script type="text/javascript" src="../js/klass_min.js"></script>
+<script type="text/javascript" src="../js/code_photoswipe_min.js"></script>
+<script type='text/javascript' src="../js/jquery.min.js"></script>
+<script type='text/javascript' src="../js/wedding.js"></script>
+<!--<script type='text/javascript' src="../js/global.js"></script>-->
+<script type='text/javascript' src="../js/weixinShare.js"></script>
+<script language="javascript">
+	var _wedding={"ImgPath":"http://1.sshengjun.sinaapp.com/images/banner1.jpg","MusicPath":"../voice/ceshi1.mp3","VideoPath":"","DisplayType":"1"};
+	$(document).ready(wedding_obj.wedding_init);
+</script>
+<script type="text/javascript">
+window.onload = function() {
+	setTimeout("showBox()", 1000 )
+};
+function showBox() {
+	document.getElementById("loading").style.display = "none";
+	document.getElementById("invitation").style.display = "block";
+}
+function changeCss(a) {
+    var i = 1;
+    for (i = 1; i < 10; i++) {
+        if (document.getElementById("classidmenu" + i)) {
+            if (a == i) {
+				if(document.getElementById("contentBox" + i).style.display != "block"){
+					document.getElementById("contentBox" + i).style.display = "block";
+					window.location.hash="classidmenu" + i;
+				}
+				else{
+					document.getElementById("contentBox" + i).style.display = "none";
+				}
+            }
+            else {
+                document.getElementById("contentBox" + i).style.display = "none";
+            }
+        }
+    }
+}
+</script>
+<style>
+label {
+    display: block;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: url("../images/nomusic.png") center center no-repeat;
+    background-size: 21px 20px;
+    cursor: pointer;
+}
+label.on {
+	background:url("../images/music.png") center center no-repeat; 
+	background-size:21px 20px;
+}
+
+</style>
+</head> 
+<body>
+	
+	<div class="loading" id="loading">
+        <div class="logo" onClick="showBox()"><img src="../images/loading.png" /></div>
+        <div class="whosmarry">新郎♥新娘之婚礼喜宴</div>
+    </div>
+	<div class="invitation" id="invitation" style="display:none">
+		
+    	<div class="banner"><img src="../images/banner1.jpg" /></div>
+        <div class="logo"><img src="../images/logo.png" /></div>
+        <div class="whosmarry">新郎♥新娘之婚礼喜宴</div>
+        <div class="main">
+        	<h1>恭请见证我们的婚礼 2019-02-05 初六 <br>星期二</h1>        
+        </div>
+		<label id="music_id"></label>
+        <ul class="content">
+            <li>
+                <h2 onClick="changeCss(1)" id="classidmenu1">喜宴邀请函</h2>
+                <div class="View" id="contentBox1">
+                	<img src="../images/ViewTop.png" />
+                    <div class="ViewContent">
+                    	<p>2019-02-05 星期二<br/>【X未年 【X年】正月初X】<br/>中午12：00<br/><br/><br/>沙县大酒店</p>
+                    </div>
+                    <img src="../images/ViewBtm.png" />
+                </div>
+            </li>
+            <li>
+                <h2 onClick="changeCss(3)" id="classidmenu3">婚礼相册</h2>
+                <div class="View" id="contentBox3">
+                	<img src="../images/ViewTop.png" />
+                    <div class="ViewContent">
+                    	<div class="PhotoList" id="Gallery">
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        	<a href="../images/pic_1.jpg"><img src="../images/pic_1.jpg" /></a>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                    <img src="../images/ViewBtm.png" />
+                </div>
+            </li>			
+            <li>
+                <h2 onClick="changeCss(4)" id="classidmenu4">喜宴小贴士</h2>
+                <div class="View" id="contentBox4">
+                	<img src="../images/ViewTop.png" />
+                    <div class="ViewContent">
+                    	<p style=" text-align:left;">
+ 1、婚宴将于X月X日中午12点00分正式开始，欢迎准时参加！<br/><br/>
+ 2、亲们，这一刻终于到来，我们决定结束牵牵小手的日子，义无反顾地奔向温馨甜蜜，并誓将快乐幸福进行到底。请亲们第一时间来参加分享我们爱情点滴，祝我们小两口结婚快乐吧。<br/><br/>
+</p>联系我们：<br/>新郎 <A href="tel:111">11111</A><br/>新娘 <A href="tel:11111">1111</A>
+</p>
+                    </div>
+                    <img src="../images/ViewBtm.png" />
+                </div>
+            </li>
+    <li>
+                <h2 onClick="changeCss(5)" id="classidmenu5">千万别打开</h2>
+                <div class="View" id="contentBox5">
+                	<img src="../images/ViewTop.png" />
+                    <div class="ViewContent">
+                    	<p>我要送红包，用支付宝扫描二维码，你懂滴!<img src="../images/doge.gif" style="width:22px;height:22px"/><img src="../images/mimi.gif" style="width:22px;height:22px"/><br></p>
+						<br>
+						<img src="../images/pay.jpg" />
+                    </div>
+                    <img src="../images/ViewBtm.png" />
+                </div>
+            </li>
+            <li>
+                <h2 onClick="changeCss(2)" id="classidmenu2">喜宴地图</h2>
+                <div class="View" id="contentBox2">
+                	<img src="../images/ViewTop.png" />
+                    <div class="ViewContent" style=" height:150px; <!--background:url('../images/ViewMid3.png') repeat-y; background-size:100% 200px;-->">
+						<a href="http://api.map.baidu.com/marker?location=29.513517,109.409188&title=新郎-新娘之婚礼喜宴地址&content=欢迎各位亲朋好友见证新郎-新娘的浪漫婚礼！&output=html">
+							<img src="../images/map1.jpg" style="width:100%;height:190px; margin-top:-20px;">
+						</a>
+                    </div>
+                    <img src="../images/ViewBtm.png" />
+                </div>
+            </li>
+            <!--<li>
+                <h2 onClick="changeCss(5)" id="classidmenu5">喜宴回函</h2>
+                <div class="View" id="contentBox5">
+                	<img src="../images/ViewTop.png" />
+                    <div class="ViewContent" style=" text-align:left;">
+                    	<div class="panel"><span>宾客签到</span><input type="text" /></div>
+                    	<div class="panel">请选择
+                        <select>
+                        	<option>1人</option>
+                        	<option>2人</option>
+                        	<option>3人</option>
+                        	<option>4人</option>
+                        	<option>5人</option>
+                        </select>
+                        人参加</div>
+                    	<div class="panel">
+                        	<textarea placeholder="请输入您的祝福"></textarea>
+                            <button class="send">发送</button>
+                        	<div style="clear:both"></div>
+                        </div>
+                        <div class="Panel Reviews">
+                            <dl>
+                                <dt><div class="commentator">张三</div><div class="time">2014-04-16 12:12:12</div></dt>
+                                <dd>百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合百年好合！！</dd>
+                            </dl>
+                            <dl>
+                                <dt><div class="commentator">张三</div><div class="time">2014-04-16 12:12:12</div></dt>
+                                <dd>百年好合！！</dd>
+                            </dl>
+                        </div>
+                        <div class="Page"> 
+                            <span class="disabled">&lt;</span>
+                            <span class="current">1</span>
+                            <a href="#?page=2">2</a>
+                            <a href="#?page=3">3</a>
+                            <a href="#?page=4">4</a>
+                            <a href="#?page=5">5</a>
+                            <a href="#?page=2">&gt;</a>
+                        </div> 
+                    </div>
+                    <img src="../images/ViewBtm.png" />
+                </div>
+            </li>-->
+        </ul>
+		
+		
+	</div>
+    <script type="text/javascript">
+		(function(window) {
+			document.addEventListener('DOMContentLoaded', function() {
+				var PhotoSwipe = window.Code.PhotoSwipe;
+				var options = {
+					loop : false   
+				}, instance = PhotoSwipe.attach(window.document
+						.querySelectorAll('#Gallery a'), options);
+			}, false);
+		})(window); 
+	</script>
+	<script >
+		var imgURL = "http://1.sshengjun.sinaapp.com/images/female-2.jpg";
+		var width = 100;
+		var height = 100;
+		var title = "新郎♥新娘之正月初六婚礼喜宴";
+		var desc = "欢迎各位亲朋好友参加新郎♥新娘的浪漫婚礼！";
+		var url = "http://1.sshengjun.sinaapp.com/jsp/";
+		_WXShare(imgURL,width,height,title,desc,url)
+    </script>
+	
+<script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cdiv id='cnzz_stat_icon_1000053934'%3E%3C/div%3E%3Cscript src='" 
+                            + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000053934' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</body>
+</html>
