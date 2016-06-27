@@ -1,6 +1,6 @@
 {
   "name": "wedingCard",
   "tagline": "结婚请帖",
-  "body": "结婚请帖",
+  "body": "# WeddingCard\r\n结婚请帖\r\n\r\n#下载无需部署，直接访问   jsp/index.html 即可\r\n![image](https://github.com/shushengming/wedingCard/blob/master/screenshot/ScreenClip.png)\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
